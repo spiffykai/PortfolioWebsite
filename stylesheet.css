@@ -15,12 +15,34 @@ body{
     font-family: verdana;
 }
 
+.logo {
+    width: 70px;
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.paragraph{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+
+    text-indent: 50px;
+}
+
+#logos{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
 #header{
     display: flex;
 }
 
 #headshot{
     width: 130px;
+    height: 130px;
     border-radius: 50%;
     margin-top: 50px;
     margin-right: 50px;
