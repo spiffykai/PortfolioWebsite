@@ -16,24 +16,24 @@ body{
 }
 
 .logo {
-    width: 70px;
-    height: 70px;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 4rem;
+    height: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .paragraph{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 18px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1rem;
     line-height: 1.5;
 
-    text-indent: 50px;
+    text-indent: 1.5rem;
 }
 
 #logos{
-    padding-top: 50px;
-    padding-left: 30px;
+    padding-top: 4rem;
+    padding-left: 3rem;
 }
 
 #header{
@@ -41,20 +41,20 @@ body{
 }
 
 #headshot{
-    width: 130px;
-    height: 130px;
+    width: 9rem;
+    height: 9rem;
     border-radius: 50%;
-    margin-top: 50px;
-    margin-right: 50px;
+    margin-top: 3rem;
+    margin-right: 3rem;
 }
 
 #title{
-    padding-top: 10px;
-    font-size: 60px;
+    padding-top: .5rem;
+    font-size: 3.8rem;
 }
 
 #description{
-    margin-top: -30px;
-    margin-bottom: 10px;
-    font-size: 20px;
+    margin-top: -2rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
 }
