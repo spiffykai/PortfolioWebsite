@@ -10,10 +10,17 @@ body{
     align-content: left;
     align-self: center;
     height: 100%;
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 40%;
+    margin: auto;
     font-family: verdana;
 }
+
+@media screen and (orientation: portrait) {
+    .container {
+      width: 90%;
+      margin: auto;
+    }
+  }
 
 .logo {
     width: 4rem;
@@ -32,12 +39,17 @@ body{
 }
 
 #logos{
-    padding-top: 4rem;
-    padding-left: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
 }
 
 #header{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #headshot{
