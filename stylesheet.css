@@ -10,9 +10,9 @@ body{
     align-content: left;
     align-self: center;
     height: 100%;
-    width: 40%;
+    width: 50rem;
     margin: auto;
-    font-family: verdana;
+    font-family: garamond;
 }
 
 @media screen and (orientation: portrait) {
